@@ -1,3 +1,19 @@
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: #c00;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #f33;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -158,8 +174,6 @@ footer {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
   color: #333;
   font-size: 15px;
 }
